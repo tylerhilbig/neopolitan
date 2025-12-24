@@ -18,9 +18,11 @@ function App() {
         </div>
         <TodoList />
       </div>
+
       <div className="sidebar">
         <ProductivityStats />
       </div>
+      
     </div>
   );
 }

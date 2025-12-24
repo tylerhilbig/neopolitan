@@ -24,7 +24,7 @@ const ProductivityTimer: React.FC = () => {
   return (
     <>  
         <div className="productivity-timer">
-            <h1>Productivity</h1>
+            <h2>Productivity</h2>
             <div className="timer">{formatTime(seconds)}</div>
         </div>
     </>

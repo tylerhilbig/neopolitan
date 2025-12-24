@@ -24,7 +24,7 @@ const BreakTimer: React.FC = () => {
   return (
     <>
       <div>
-        <h1>Break</h1>
+        <h2>Break</h2>
         <div className="timer">{formatTime(seconds)}</div>
       </div>
     </>

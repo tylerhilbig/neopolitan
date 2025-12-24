@@ -10,8 +10,11 @@
 }
 
 .main-section {
+  width: 75vw;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .timers {
@@ -19,12 +22,13 @@
   border: 1px solid #ff0000;
   border-radius: 5px;
   justify-content: space-around;
-  padding: 1rem;
+  padding: 2rem;
+  column-gap: 20px;
 }
 
 .sidebar {
   flex: 1;
-  border-left: 1px solid #4400ff;
+  border-left: 1px solid #393939;
   padding: 1rem;
 }
 
