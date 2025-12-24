@@ -10,7 +10,12 @@ return (
     <div>
         <ul className="todo-list">
             <li>Empty trash</li>
-            <li>Feed Raccoon</li>
+            <li>File Taxes</li>
+            <li>Threaten Hank</li>
+            <li>Steal methlamine</li>
+            <li>Visit Hector</li>
+            <li>Lie to Skylar</li>
+            <li>Bury money</li>
         </ul>
     </div>
     </div>

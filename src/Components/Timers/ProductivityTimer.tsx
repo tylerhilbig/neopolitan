@@ -23,10 +23,16 @@ const ProductivityTimer: React.FC = () => {
 
   return (
     <>  
-        <div className="productivity-timer">
-            <h2>Productivity</h2>
-            <div className="timer">{formatTime(seconds)}</div>
-        </div>
+    <div className="productivity-content">
+      <div className="productivity-timer">
+          <h2 className="timer-label">Productivity</h2>
+          <div className="timer-value">{formatTime(seconds)}</div>
+      </div>
+      <div className="buttons">
+        <button id="pause-btn">Pause</button>
+        <button id="extend-btn">Extend</button>
+      </div>
+    </div>
     </>
   );
 };

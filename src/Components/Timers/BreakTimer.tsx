@@ -23,10 +23,13 @@ const BreakTimer: React.FC = () => {
 
   return (
     <>
-      <div>
-        <h2>Break</h2>
-        <div className="timer">{formatTime(seconds)}</div>
+    <div className="break-content">
+      <div className="break-timer">
+        <h2 className="timer-label">Next Break</h2>
+        <div className="timer-value">{formatTime(seconds)}</div>
       </div>
+      <button id="start-break-btn">Start Now</button>
+    </div>
     </>
   );
 };
